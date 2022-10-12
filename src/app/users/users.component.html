@@ -1,5 +1,4 @@
 <app-navbar></app-navbar>
-<h1>Post List</h1>
 <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -20,7 +19,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr *ngFor="let i of userData">
+                  <tr *ngFor="let i of userData.users">
                     <td>{{i.id}}</td>
                     <td>{{i.firstName}}</td>
                     <td>{{i.lastName}}</td>
